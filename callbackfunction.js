@@ -9,6 +9,7 @@ function welComeGuest(name, greetHandler){
      console.log('good morning' , name);
  }
   welComeGuest ( actorsName, greetmorning);
+  
   welComeGuest ( 'shakib khan' , function(name){
       console.log('special welcome' , name);
   })
