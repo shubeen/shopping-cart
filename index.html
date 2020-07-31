@@ -112,14 +112,14 @@
 
 
             var totalPrice = phoneCount * 1219 + caseCount * 59;
-            document.getElementById('total-price').innerText = totalPrice;
+            document.getElementById('total-price').innerText = '$'+ totalPrice;
 
             var tax = Math.round(totalPrice * 0.10);
             // var tax =(totalPrice * 0.10).toFixed(0);
             document.getElementById('tax-amount').innerText = '$' + tax;
 
             var grandTotal = totalPrice + tax;
-            document.getElementById('grand-total').innerText = grandTotal;
+            document.getElementById('grand-total').innerText = '$' +grandTotal;
          }
 
          function getInputValue(product){
